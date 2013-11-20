@@ -8,8 +8,8 @@
     var oDate = document.getElementById('date');
     var dLink = document.getElementById('descriptionLink');
 
-    var stop_video = function(){
-
+    var showAudio = function(){
+        document.getElementById("audio").style.display ="block";
     }
 
     // Show Video
@@ -128,6 +128,10 @@
     btn.addEventListener('click', show_videoOne, false)
     btn_a.addEventListener('click', show_videoOne, false)
     btn_b.addEventListener('click', show_videoOne, false)
+
+    // Audio Event Listener
+    audioPlay = document.getElementById('audioTrigger');
+    audioPlay.addEventListener('click', showAudio, false);
 
 })(); // end wrapper
 

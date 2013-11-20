@@ -11,6 +11,10 @@ body{
     padding-right: 30px;
 }
 
+#audio{
+    margin-top: 10px;
+    display:none;
+}
 
 .carousel-btn{
     margin-right: -220px;
