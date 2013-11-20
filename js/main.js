@@ -1,7 +1,5 @@
 (function(){
 
-    // Xml Data
-
     var head = document.getElementById('featureHeader');
     var cta = document.getElementById('cta');
     var rTime = document.getElementById('runTime');
@@ -9,16 +7,6 @@
     var descripTwo = document.getElementById('descriptionTwo')
     var oDate = document.getElementById('date');
     var dLink = document.getElementById('descriptionLink');
-
-    var request = new XMLHttpRequest();
-    request.open("GET", "../watchGreenHornetOnline.com/xml/hornet.xml", false);
-    request.send();
-    var xml = request.responseXML;
-
-    var title = xml.getElementsByTagName("title");
-    var history = xml.getElementsByTagName("airDate")
-    var running = xml.getElementsByTagName("videoLength");
-    var plot = xml.getElementsByTagName("description");
 
     // Show Video
 
