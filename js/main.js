@@ -8,6 +8,10 @@
     var oDate = document.getElementById('date');
     var dLink = document.getElementById('descriptionLink');
 
+    var stop_video = function(){
+
+    }
+
     // Show Video
 
     var show_videoOne = function(){
