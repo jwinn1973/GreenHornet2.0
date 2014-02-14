@@ -1,42 +1,40 @@
-body{
-    max-width: 1440px;
-    background-color: darkgreen;
-}
-#wrapper{
-    width: 70%;
-    margin: 0 auto;
-}
+#wrapper{width:80%; overflow:hidden; margin:0 auto}
 
-#hatch{
-    padding-right: 30px;
-}
+nav {background-color:#ffffff; border-bottom: 1px solid black; overflow:hidden}
 
-#audio{
-    margin-top: 10px;
-    display:none;
-}
+nav a {color:#346509; }
 
+nav a:hover, .nav>li>a:hover, .nav>li>a:focus{color:#457b16; background-color:#ffffff}
+
+#hatch{margin-left:0;}
+
+#audio{margin-top: 10px; display:none;}
+
+#icon{margin-right:1%}
+
+#mainCta{ margin-top: 6%; width:100%;}
+
+#cta img {100%}
 .carousel-btn{
     margin-right: -220px;
 }
 
-.jumbotron{
-    overflow: hidden;
-}
+#textArea{width:70%; letter-spacing:1px;  font-size: 0.938em;}
 
-#mainCta{
-    margin-top: 60px;
-}
+#btmcontent{background-color:#eee; overflow:hidden;  }
 
-#textArea{
-     font-size: 0.938em;
- }
+aside{float:right; width:30%; margin:0 0}
+
+aside img{width:100%}
 
 #titleDisplay{
     display: block;
     overflow: hidden;
     margin-top: -60px;
 }
+.page-header h4{ padding-bottom: 9px; margin: 0 0 -2% 0%; border-bottom: 1px solid #eee;} 
+
+#descriptionLink , #descriptionLink a {color: green; margin: -2% 0 -2% 0}
 
 #featureHeader{
     padding-right: 10px;
@@ -46,6 +44,10 @@ body{
     margin-top: -10px;
 }
 
+.panel-heading{text-align:center}
+
+#panel-heading{margin-top: -2%}
+
 #textArea h3{
     color: darkgreen;
     text-shadow: 2px 2px 2px silver;
@@ -53,8 +55,7 @@ body{
 
 .hornetText, .hornetLink a, .hornetLink a:hover{
     color: green;
-
-    font-size: 1.500em;
+    font-size: 180%;
     padding-right: 5px;
     text-decoration: none;
     text-shadow: 2px 2px 2px silver;
