@@ -2,15 +2,11 @@
 
     var head = document.getElementById('featureHeader');
     var cta = document.getElementById('cta');
-    var rTime = document.getElementById('runTime');
+    var rTime = document.getElementById('runtime');
     var descrip = document.getElementById('description')
     var descripTwo = document.getElementById('descriptionTwo')
     var oDate = document.getElementById('date');
     var dLink = document.getElementById('descriptionLink');
-
-    var showAudio = function(){
-        document.getElementById("audio").style.display ="block";
-    }
 
     // Show Video
 
@@ -47,12 +43,8 @@
         "friend, the District Attorney, who was also attending. A messenger from a Brokerage House," +
         "carrying $5000 in negotiable bonds, is the Silent Gun's second victim. The Green Hornet and Kato respond in" +
         "the infamous Black Beauty and hit the streets to track down the villainous culprit.";
-        descripTwo.innerHTML = "";
-        dLink.innerHTML = "Episode Two: Give'em Enough Rope";
-        oDate.innerHTML = "September 09, 1966";
-        next = document.getElementById('descriptionLink')
-        next.addEventListener('click', displayTwo, false);
-        next.addEventListener('click', show_videoTwo, false)
+        oDate.innerHTML = "Original Air Date: September 09, 1966";
+        event.preventDefault()
     }
 
     var displayTwo = function(){
@@ -63,12 +55,8 @@
         "suit. A masked man in a black costume swoops down on a rope, strangling the reporter's source, and the " +
         "reporter alleges the Green Hornet's behind the racket. Reid sweet-talks a luscious libel attorney, while The " +
         "Hornet and sidekick Kato pretend to horn in on the racket. Al Hirt's blaring jazz trumpet backs the action.";
-        descripTwo.innerHTML = "";
-        dLink.innerHTML = "Episode Three: Programmed For Death";
-        oDate.innerHTML = "September 16, 1966";
-        next = document.getElementById('descriptionLink')
-        next.addEventListener('click', displayThree, false);
-        next.addEventListener('click', show_videoThree, false)
+        oDate.innerHTML = "Original Air Date: September 16, 1966";
+        event.preventDefault()
     }
 
     var displayThree = function(){
@@ -79,12 +67,8 @@
         "attending. A messenger from a Brokerage House, carrying $5000 in negotiable bonds, is the Silent" +
         "Gun's second victim. The Green Hornet and Kato respond in the infamous Black Beauty and hit the" +
         "streets to track down the villainous culprit.";
-        descripTwo.innerHTML = "";
-        dLink.innerHTML = "Episode One: The Silent Gun";
-        oDate.innerHTML = "September 23, 1966";
-        next = document.getElementById('descriptionLink')
-        next.addEventListener('click', displayOne, false);
-        next.addEventListener('click', show_videoOne, false)
+        oDate.innerHTML = "Original Air Date: September 23, 1966";
+        event.preventDefault()
     }
 
     // Event Listeners for Programmed For Death
@@ -129,9 +113,6 @@
     btn_a.addEventListener('click', show_videoOne, false)
     btn_b.addEventListener('click', show_videoOne, false)
 
-    // Audio Event Listener
-    audioPlay = document.getElementById('audioTrigger');
-    audioPlay.addEventListener('click', showAudio, false);
 
 })(); // end wrapper
 

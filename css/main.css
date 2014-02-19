@@ -43,8 +43,6 @@ aside img{width:100%}
 
 #descriptionLink , #descriptionLink a {color: green; margin: -2% 0 -2% 0}
 
-#featureHeader{padding-right: 10px;}
-
 #runTime{margin-top: -10px;}
 
 .panel-heading{text-align:center}
@@ -82,19 +80,18 @@ aside img{width:100%}
 
 #vids{display: none;}
 
-.panel-heading a, .panel-heading a:hover{
-    color: black;
-    text-decoration: none;
-}
+.panel-heading a, .panel-heading a:hover{color: black;text-decoration: none;}
 
-#silent, #enoughRope, #programmed{
-    display: none;
-}
-.videoBox{
-    width: 100%;
-    background-color: black;
-    text-align: center;
-}
+#silent,#enoughRope,#programmed{display:none; width:100%; background-color:#e1e1e1; margin-left:0; overflow:hidden}
+
+#vid_text {width:44%; float:right;position:relative;z-index:5;margin-top:-40%}
+
+#featureHeader{font-size:20px; color:#346509;margin:2% 0 -1% 1%}
+#runtime{font-size:12px; color:#346509; margin:.5% 0 5% 1.5%; font-weight:800}
+#description{letter-spacing:1px;margin: 10% 1% 5% 1%;}
+#date{margin: 10% 0 5% 1%; font-weight:bolder;color:#346509}
+.videoBox{float:left; margin-bottom:-.4%; clear:right}
+
 
 footer{overflow: hidden;background-color:black; margin-top:-2%}
 footer p{color:#346509; margin:1%}
