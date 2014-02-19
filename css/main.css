@@ -6,60 +6,54 @@ nav a {color:#346509; }
 
 nav a:hover, .nav>li>a:hover, .nav>li>a:focus{color:#457b16; background-color:#ffffff}
 
-#hatch{margin-left:0;}
+#spacer{width:100%; background-color:black;}
+#spacer h4{padding:1%; color:#346509}
+#nav{ width:100% margin:0 0 0 2%;clear:both; background-color:black; overflow:hidden}
+#nav>ul>li{margin-top:9.5%}
+#nav>ul>li>a{color:#346509; display:inline;font-size:16px}
+#nav>ul>li>a:hover{background-color:transparent;color:white}
+#nav h5{color:#346509}
+#hatch{margin-left:10%;}
 
 #audio{margin-top: 10px; display:none;}
 
-#icon{margin-right:1%}
+#icon {margin-right:6%}
+#icon>li{margin-right: -15%}
 
 #mainCta{ margin-top: 6%; width:100%;}
 
+#carousel-example-generic{margin:-1% 0 -2% 0}
+#carousel-example-generic img{}
+#carousel-example-generic #kato img{width:20%; position:relative; z-index:1;margin:-32% 0 0 1%; opacity:.8}
+
 #cta img {100%}
-.carousel-btn{
-    margin-right: -220px;
-}
+.carousel-btn{margin-right: -220px;}
 
 #textArea{width:70%; letter-spacing:1px;  font-size: 0.938em;}
 
-#btmcontent{background-color:#eee; overflow:hidden;  }
+#btmcontent{background-color:#eee; overflow:hidden;}
 
 aside{float:right; width:30%; margin:0 0}
 
 aside img{width:100%}
 
-#titleDisplay{
-    display: block;
-    overflow: hidden;
-    margin-top: -60px;
-}
+#titleDisplay{display: block;overflow: hidden;margin-top: -60px;}
+
 .page-header h4{ padding-bottom: 9px; margin: 0 0 -2% 0%; border-bottom: 1px solid #eee;} 
 
 #descriptionLink , #descriptionLink a {color: green; margin: -2% 0 -2% 0}
 
-#featureHeader{
-    padding-right: 10px;
-}
+#featureHeader{padding-right: 10px;}
 
-#runTime{
-    margin-top: -10px;
-}
+#runTime{margin-top: -10px;}
 
 .panel-heading{text-align:center}
 
 #panel-heading{margin-top: -2%}
 
-#textArea h3{
-    color: darkgreen;
-    text-shadow: 2px 2px 2px silver;
-}
+#textArea h3{color: darkgreen;text-shadow: 2px 2px 2px silver;}
 
-.hornetText, .hornetLink a, .hornetLink a:hover{
-    color: green;
-    font-size: 180%;
-    padding-right: 5px;
-    text-decoration: none;
-    text-shadow: 2px 2px 2px silver;
-}
+.hornetText, .hornetLink a, .hornetLink a:hover{color: green;font-size: 180%;padding-right: 5px;text-decoration: none;text-shadow: 2px 2px 2px silver;}
 
 .mBox{
     display:block;
@@ -78,24 +72,15 @@ aside img{width:100%}
     text-align: center;
     margin-top:-14px;
 }
-footer p {
-    text-shadow: 2px 2px 2px silver;
-}
 
-#btm-nav {
-    list-style-type: none;
-    overflow: hidden;
-}
+#btm-nav {list-style-type: none;overflow: hidden; margin:0 12% 0 -12%; }
 
-#btm-nav li {
-    float: left;
-    text-align: left;
-    padding-left: 10px;
-}
+#btm-nav li {float: left; padding-left:12%;margin: 0 1% 0 -10%;display:inline }
+#thumbnailsArea{overflow:hidden; background-color:#e1e1e1;margin-bottom:2%}
+#thumbnailsArea>h4>a{margin-left:1%;color:#346509;}
+#displayOne,#displayTwo,#displayThree {background-color:transparent;}
 
-#vids{
-    display: none;
-}
+#vids{display: none;}
 
 .panel-heading a, .panel-heading a:hover{
     color: black;
@@ -111,6 +96,5 @@ footer p {
     text-align: center;
 }
 
-footer{
-    overflow: hidden;
-}
+footer{overflow: hidden;background-color:black; margin-top:-2%}
+footer p{color:#346509; margin:1%}
