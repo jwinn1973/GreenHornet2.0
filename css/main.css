@@ -1,49 +1,40 @@
+/*================ Main Css
+===================================*/
 #wrapper{width:80%; overflow:hidden; margin:0 auto}
-
-nav {background-color:#ffffff; border-bottom: 1px solid black; overflow:hidden}
-
+@font-face{font-family:headText;font-weight:100; src:url('../fonts/bankgothic-regular.ttf')};
+@font-face{font-family:blockText;font-weight:100; src:url('../fonts/tsblockbold.ttf')};
+/*=================== Navagation
+===================================*/
+nav navbar .navbar {background-color:green; border-bottom: 1px solid black; overflow:hidden}
 nav a {color:#346509; }
-
 nav a:hover, .nav>li>a:hover, .nav>li>a:focus{color:#457b16; background-color:#ffffff}
-
-#spacer{width:100%; background-color:black;}
-#spacer h4{padding:1%; color:#346509}
+#icon {margin-right:6%}
+#icon>li{margin-right: -15%}
 #nav{ width:100% margin:0 0 0 2%;clear:both; background-color:black; overflow:hidden}
 #nav>ul>li{margin-top:9.5%}
 #nav>ul>li>a{color:#346509; display:inline;font-size:16px}
 #nav>ul>li>a:hover{background-color:transparent;color:white}
-#nav h5{color:#346509}
+#nav h5{color:#346509; position:relative; top:3%}
 #hatch{margin-left:10%;}
 
-#audio{margin-top: 10px; display:none;}
+/*===================== Main Cta Section
+==========================================*/
+#mainCta{margin:6% 0 -2% 0; width:100%;background-color:black;overflow:hidden}
 
-#icon {margin-right:6%}
-#icon>li{margin-right: -15%}
-
-#mainCta{ margin-top: 6%; width:100%;}
-
-#carousel-example-generic{margin:-1% 0 -2% 0}
-#carousel-example-generic img{}
-#carousel-example-generic #kato img{width:20%; position:relative; z-index:1;margin:-32% 0 0 1%; opacity:.8}
-
-#cta img {100%}
-.carousel-btn{margin-right: -220px;}
-
+#mainCta h4{color:white;position:relative;padding:.4%}
+#cta>p>img {width:100%;position:relative;z-index:0;margin-top:2%}
+#kato{width:18%;position:absolute;top:20.7%;left:20%;opacity:.9}
+#ctaText{background-color:white;width:30%;height:141px;position:absolute;top:53%;opacity:.5}
+#cta>div{position:absolute;top:58%;width:27%;margin-left:.5%}
+#cta>div>h2{font-family:blockText;font-size:200%;margin:-5% 0 0 1%;color:#346509}
+#cta>div>h3{margin:1% 2%;font-family:headText;letter-spacing:1px;width:40%;color:#346509}
+#cta>div>h4{padding:2%;width:50%;font-family:headText;letter-spacing:2px;margin:3% 1% 0 1%}
+#vid_text #featureHeader{font-size:20px; color:#346509;margin:2% 0 -1% 1%;}
 #textArea{width:70%; letter-spacing:1px;  font-size: 0.938em;}
-
-#btmcontent{background-color:#eee; overflow:hidden;}
-
-aside{float:right; width:30%; margin:0 0}
-
-aside img{width:100%}
-
+#runTime{margin-top: -10px;}
 #titleDisplay{display: block;overflow: hidden;margin-top: -60px;}
 
 .page-header h4{ padding-bottom: 9px; margin: 0 0 -2% 0%; border-bottom: 1px solid #eee;} 
-
-#descriptionLink , #descriptionLink a {color: green; margin: -2% 0 -2% 0}
-
-#runTime{margin-top: -10px;}
 
 .panel-heading{text-align:center}
 
@@ -53,23 +44,11 @@ aside img{width:100%}
 
 .hornetText, .hornetLink a, .hornetLink a:hover{color: green;font-size: 180%;padding-right: 5px;text-decoration: none;text-shadow: 2px 2px 2px silver;}
 
-.mBox{
-    display:block;
-    padding-bottom: 25px;
+.mBox{display:block;padding-bottom: 25px;}
 
-}
+.inputField{width: 30%;float: right;margin-right: 150px;box-shadow: 2px 2px 2px silver;}
 
-.inputField{
-    width: 30%;
-    float: right;
-    margin-right: 150px;
-    box-shadow: 2px 2px 2px silver;
-}
-
-.play, .screen {
-    text-align: center;
-    margin-top:-14px;
-}
+.play, .screen {text-align: center;margin-top:-14px;}
 
 #btm-nav {list-style-type: none;overflow: hidden; margin:0 12% 0 -12%; }
 
@@ -80,13 +59,18 @@ aside img{width:100%}
 
 #vids{display: none;}
 
-.panel-heading a, .panel-heading a:hover{color: black;text-decoration: none;}
+.panel-heading a, .panel-heading a:hover{color:black;text-decoration:none;font-size:100%;}
+#thumbnailsArea>article{padding-bottom:2%;margin-top:1%}
+#thumbnailsArea>article h2{font-size:120%; letter-spacing: 2px;width:72%;margin:0 0 0 14%}
 
 #silent,#enoughRope,#programmed{display:none; width:100%; background-color:#e1e1e1; margin-left:0; overflow:hidden}
 
 #vid_text {width:44%; float:right;position:relative;z-index:5;margin-top:-40%}
 
-#featureHeader{font-size:20px; color:#346509;margin:2% 0 -1% 1%}
+#thumbnailsArea>article .btn-success{width:72%;margin:-5% 0 0 14%;border-radius:5px}
+#thumbnailsArea>article .btn-success a{color:white}
+#thumbnailsArea>article .btn-success a:hover{text-decoration:none}
+
 #runtime{font-size:12px; color:#346509; margin:.5% 0 5% 1.5%; font-weight:800}
 #description{letter-spacing:1px;margin: 10% 1% 5% 1%;}
 #date{margin: 10% 0 5% 1%; font-weight:bolder;color:#346509}
